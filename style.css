@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+body {
+  background: rgb(37,15,150);
+background: linear-gradient(83deg, rgba(37,15,150,1) 0%, rgba(32,11,101,1) 56%, rgba(17,7,68,1) 100%);
+  font-family: "Poppins", sans-serif;
+  color: rgb(253, 195, 5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.clock {
+  font-size: 4rem;
+  text-shadow: 0.25rem 0.25rem 0.6rem rgba(255, 255, 255, 0.1);
+  display: flex;
+  gap: 1.5rem;
+  text-align: center;
+}
+
+#seconds {
+  min-width: 5.5rem;
+}
